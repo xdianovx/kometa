@@ -1,0 +1,24 @@
+@import '@/styles/_vars.scss';
+
+.section {
+    margin-top: 240px;
+}
+
+.top {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+
+.description {
+    max-width: 430px;
+    width: 100%;
+}
+
+.wrap {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}

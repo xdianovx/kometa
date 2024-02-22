@@ -1,0 +1,12 @@
+@import '@/styles/_vars.scss';
+
+.section {
+    margin-top: 240px;
+}
+
+.wrap {
+    margin-top: 100px;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr;
+}

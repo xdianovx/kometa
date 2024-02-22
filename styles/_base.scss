@@ -1,0 +1,18 @@
+body {
+    background: $pagebg;
+    font-family: var(--font-manrope), sans-serif;
+    color: $textBlack;
+    line-height: 150%;
+    // font-weight: 400;
+    font-size: 16px;
+}
+
+.title {
+    font-family: var(--font-firs), sans-serif;
+    font-size: 20px;
+}
+
+.man {
+    font-family: var(--font-manrope), sans-serif;
+    font-size: 20px;
+}

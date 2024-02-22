@@ -1,0 +1,35 @@
+@import '@/styles/_vars.scss';
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top {
+    display: flex;
+    align-items: flex-end;
+}
+
+.num {
+    color: $textAccent;
+    line-height: 100%;
+    font-size: 128px;
+    font-weight: 200;
+    font-family: var(--font-firs);
+}
+
+.suptitle {
+    font-family: var(--font-firs);
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 100%;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.text {
+    line-height: 150%;
+    max-width: 430px;
+    width: 100%;
+}

@@ -1,0 +1,27 @@
+@import '@/styles/_vars.scss';
+
+.btn {
+    background: $bgBlack;
+    color: $textWhite;
+    border-radius: 1000px;
+    line-height: 1;
+    transition: all .2s ease-in-out;
+    border: 1px solid $bgBlack;
+
+    &:hover {
+        background: $bgWhite;
+        border: 1px solid $bgBlack;
+        color: $textBlack;
+    }
+
+    &.md {
+        font-weight: 600;
+        padding: 15px 31px;
+    }
+
+
+    &.sm {
+        text-transform: uppercase;
+        padding: 11px 24px;
+    }
+}

@@ -1,0 +1,39 @@
+@import '@/styles/_vars.scss';
+
+.h1 {
+    font-size: 105px;
+    line-height: 1;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: var(--font-firs), sans-serif;
+
+    span {
+        color: $textAccent;
+    }
+}
+
+.h2 {
+    font-size: 46px;
+    line-height: 100%;
+    font-family: var(--font-firs), sans-serif;
+    font-weight: 500;
+
+    span {
+        color: $textAccent;
+    }
+}
+
+.h3 {
+    font-size: 32px;
+    line-height: 120%;
+    font-family: var(--font-firs), sans-serif;
+    font-weight: 500;
+
+    span {
+        color: $textAccent;
+    }
+}
+
+.uppercase {
+    text-transform: uppercase;
+}

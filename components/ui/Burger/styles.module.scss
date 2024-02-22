@@ -1,0 +1,52 @@
+@import '@/styles/_vars.scss';
+
+.burger {
+    position: relative;
+    width: 47px;
+    height: 47px;
+    border: 1px solid $bgBlack;
+    border-radius: 100%;
+    cursor: pointer;
+
+    span {
+        position: absolute;
+        height: 2px;
+        border-radius: 2px;
+        width: 24px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: $bgBlack;
+        transition: all .2s ease-in-out;
+    }
+
+    span:nth-child(1) {
+        top: 19px;
+    }
+
+    span:nth-child(2) {
+        bottom: 19px;
+    }
+
+
+    &.active {
+        background: $bgBlack;
+
+        span {
+            background: $bgWhite;
+        }
+
+        span:nth-child(1) {
+            top: 21px;
+            left: 11px;
+            transform: rotate(45deg);
+
+        }
+
+        span:nth-child(2) {
+            bottom: 22px;
+            left: 11px;
+            transform: rotate(-225deg);
+
+        }
+    }
+}

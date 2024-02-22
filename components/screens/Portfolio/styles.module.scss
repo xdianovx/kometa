@@ -1,0 +1,28 @@
+@import '@/styles/_vars.scss';
+
+
+.section {
+    margin-top: 240px;
+    margin-bottom: 300px;
+}
+
+
+.top {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+
+.hr {
+    height: 1px;
+    background: $bgGrayLight;
+    margin-top: 40px;
+}
+
+.cards {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}

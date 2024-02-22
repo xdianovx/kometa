@@ -1,0 +1,77 @@
+@import '@/styles/_vars.scss';
+
+
+.footer {
+    background: $bgBlack;
+    color: $textWhite;
+    padding: 40px 0 20px;
+    margin-top: 240px;
+}
+
+.top {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 40px;
+    max-width: 430px;
+    width: 100%;
+}
+
+
+.link {
+    width: 40%;
+    line-height: 1;
+    display: block;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+        color: $textAccent;
+    }
+}
+
+.top__logo {
+    max-width: 430px;
+    width: 100%;
+
+    p {
+        margin-top: 20px;
+        font-weight: 400;
+        max-width: 340px;
+        font-size: 14px;
+        line-height: 140%;
+        text-transform: uppercase;
+        color: $textGray;
+    }
+}
+
+.hr {
+    height: 1px;
+    background: $bgGrayLight;
+    margin-top: 80px;
+}
+
+.top__right {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-end;
+}
+
+.bottom {
+    display: flex;
+    padding-top: 16px;
+    gap: 32px;
+    color: $textGray;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+.copyright {
+    margin-left: auto;
+}

@@ -1,0 +1,16 @@
+@import '@/styles/_vars.scss';
+
+
+.tag {
+    border-radius: 1000px;
+    border: 1px solid $bgBlack;
+    line-height: 100%;
+    display: inline-block;
+
+    &.md {
+        text-transform: uppercase;
+        padding: 8px 24px 7px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}

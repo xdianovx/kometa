@@ -1,0 +1,25 @@
+@import '@/styles/_vars.scss';
+
+.section {
+    margin-top: 80px;
+}
+
+.wrap {
+    display: flex;
+    align-items: flex-end;
+    gap: 40px;
+}
+
+.image {
+    height: 800px;
+    max-width: 900px;
+    width: 100%;
+    width: 100%;
+    background: $bgGrayLight;
+}
+
+.hr {
+    margin-top: 40px;
+    height: 1px;
+    background: $bgGrayLight;
+}
